@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="robot">
+    <webots>
+        <device reference="Camera" type="Camera">
+            <ros>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+        <plugin type="my_robot_driver::MyRobotDriver">
+            <!-- <parameterName>someValue</parameterName> -->
+        </plugin>
+    </webots>
+</robot>

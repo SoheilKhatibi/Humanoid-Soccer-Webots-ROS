@@ -1,0 +1,28 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/RobocupSoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/darwin-op/protos/RobotisOp3.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5533985235958586 0.527057445194758 0.644950016316535 2.0399328101451903
+  position -0.1319639557919794 -2.839568782088907 10.553387657288672
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RobocupSoccerField {
+  size "kid"
+}
+RobocupSoccerBall {
+}
+RobotisOp3 {
+  translation 0 -1.5 0.279
+  rotation 0 0 1 1.5707996938995747
+  controller "<extern>"
+}
