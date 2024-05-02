@@ -24,8 +24,8 @@ namespace my_robot_driver
             cmd_vel_subscription_;
         geometry_msgs::msg::Twist cmd_vel_msg;
 
-        WbDeviceTag right_motor;
-        WbDeviceTag left_motor;
+        // WbDeviceTag right_motor;
+        // WbDeviceTag left_motor;
     };
 } // namespace my_robot_driver
 #endif

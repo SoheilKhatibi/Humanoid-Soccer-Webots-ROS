@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(humanoid_soccer_webots_ros)
+project(Humanoid-Soccer-Webots-ROS)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)

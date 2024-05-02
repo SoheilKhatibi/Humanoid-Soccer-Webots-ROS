@@ -7,7 +7,7 @@ from webots_ros2_driver.webots_controller import WebotsController
 
 
 def generate_launch_description():
-    package_dir = get_package_share_directory('humanoid_soccer_webots_ros')
+    package_dir = get_package_share_directory('Humanoid-Soccer-Webots-ROS')
     robot_description_path = os.path.join(package_dir, 'resource', 'robot.urdf')
 
     webots = WebotsLauncher(

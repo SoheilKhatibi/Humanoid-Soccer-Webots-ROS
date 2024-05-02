@@ -1,4 +1,4 @@
-<library path="humanoid_soccer_webots_ros">
+<library path="Humanoid-Soccer-Webots-ROS">
     <!-- The `type` attribute is a reference to the plugin class. -->
     <!-- The `base_class_type` attribute is always `webots_ros2_driver::PluginInterface`. -->
     <class type="my_robot_driver::MyRobotDriver"
