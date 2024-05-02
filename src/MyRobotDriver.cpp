@@ -6,6 +6,7 @@
 #include <webots/motor.h>
 #include <webots/robot.h>
 #include <webots/camera.h>
+// #include <webots/device.h>
 
 #define HALF_DISTANCE_BETWEEN_WHEELS 0.045
 #define WHEEL_RADIUS 0.025
@@ -19,7 +20,7 @@ namespace my_robot_driver
 
         // right_motor = wb_robot_get_device("right wheel motor");
         // left_motor = wb_robot_get_device("left wheel motor");
-        // camera = wb_robot_get_device("camera");
+        // WbDeviceTag camera = wb_robot_get_device("Camera");
 
         // wb_motor_set_position(left_motor, INFINITY);
         // wb_motor_set_velocity(left_motor, 0.0);
@@ -27,7 +28,7 @@ namespace my_robot_driver
         // wb_motor_set_position(right_motor, INFINITY);
         // wb_motor_set_velocity(right_motor, 0.0);
 
-        // time_step = wb_robot_get_basic_time_step();
+        // int time_step = wb_robot_get_basic_time_step();
 
         // wb_camera_enable(camera, time_step);
 
